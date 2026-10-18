@@ -184,13 +184,27 @@ running the LLM-dependent pipelines requires `LLM_API_KEY`.
 
 ## 7. Citation
 
-If you use this code or data, please cite the accompanying article:
+If you use this code or data, please cite the archived release of this repository (see the DOI
+badge on the GitHub page, minted by Zenodo) and the accompanying article:
 
-> (authors). Ontology-driven dynamic data classification and reasoning for evolving business
-> data. *Data & Knowledge Engineering* (under review).
+> X. Zhao, X. Yuan, C. Yi. DOBAR: A Domain Ontology Construction and Reasoning Method Combined
+> with Large Language Models. *Data & Knowledge Engineering* (under review).
+>
+> Code and data: https://github.com/sar31/ontology_reasoning (archived at Zenodo, DOI to be added).
+
+`CITATION.cff` and `.zenodo.json` carry the same metadata, so GitHub and Zenodo render the
+citation automatically.
 
 ---
 
-## 8. Contact
+## 8. Licence
 
-Corresponding author — see the manuscript for the current e-mail address.
+* Code (`backend/`, `frontend/`, `scripts/`) — MIT, see `LICENSE`.
+* Dataset (`data/`) — CC BY 4.0.
+* KQAPro and CMNEE are not redistributed and remain under their original licences.
+
+---
+
+## 9. Contact
+
+Corresponding author: Xiaoxing Zhao — xiaoxing12@yeah.net.
