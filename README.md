@@ -87,6 +87,15 @@ export LLM_MODEL=deepseek-v4-flash
 import time. `llm_client.get_client()` raises an explicit error if `LLM_API_KEY` is missing
 rather than falling back to a built-in key.
 
+Alternatively, copy `.env.example` to `.env`, fill in your own values and source it before
+running anything:
+
+```bash
+set -a; source .env; set +a        # Git Bash / Linux / macOS
+```
+
+`.env` is git-ignored and must never be committed.
+
 ### 3.3 Start Neo4j
 
 ```bash
