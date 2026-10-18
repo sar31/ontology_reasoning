@@ -58,14 +58,16 @@ pip install -r backend/requirements.txt
 `data/test1.sql` is a MySQL 8.0 dump. It contains the simulated relational database used in
 Section 5.1 (12 tables: `countries_regions`, `persons`, `organizations`, `equipments`,
 `facilities`, `events`, `event_persons`, `event_organizations`, `event_equipments`,
-`event_facilities`, `event_timeline`, `text_sources`) together with the 153 news documents,
-which are stored in the `content` column of `text_sources`.
+`event_facilities`, `event_timeline`, `text_sources`) together with the 132 news documents,
+which are stored in the `content` column of `text_sources`. The structured tables hold 5,512
+records in total, and the news corpus contains 43,758 characters (332 on average per document),
+matching the figures reported in Section 5.1.1.
 
 ```bash
 mysql -u root -p -e "CREATE DATABASE IF NOT EXISTS benti CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;"
 mysql -u root -p benti < data/test1.sql
 
-# sanity check: expect 153
+# sanity check: expect 132
 mysql -u root -p benti -e "SELECT COUNT(*) FROM text_sources;"
 ```
 
