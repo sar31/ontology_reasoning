@@ -5,6 +5,7 @@ title: "DOBAR: Domain Ontology Construction and Reasoning Method Combined with L
 version: 1.0.0
 date-released: 2026-10-18
 license: MIT
+doi: 10.5281/zenodo.23449067
 repository-code: "https://github.com/sar31/ontology_reasoning"
 keywords:
   - dynamic ontology

@@ -1,5 +1,7 @@
 # DOBAR — Ontology-Driven Dynamic Data Classification and Reasoning
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23449067.svg)](https://doi.org/10.5281/zenodo.23449067)
+
 Research artifact accompanying the manuscript submitted to *Data & Knowledge Engineering*
 (Elsevier). It contains the prototype system, the domain dataset used in Section 5.1, and the
 scripts that produce the results reported in Section 5.
@@ -190,7 +192,21 @@ badge on the GitHub page, minted by Zenodo) and the accompanying article:
 > X. Zhao, X. Yuan, C. Yi. DOBAR: A Domain Ontology Construction and Reasoning Method Combined
 > with Large Language Models. *Data & Knowledge Engineering* (under review).
 >
-> Code and data: https://github.com/sar31/ontology_reasoning (archived at Zenodo, DOI to be added).
+> Code and data: https://github.com/sar31/ontology_reasoning — archived as v1.0.0 at
+> https://doi.org/10.5281/zenodo.23449067 (all versions: 10.5281/zenodo.23449066).
+
+```bibtex
+@software{zhao_dobar_2026,
+  author    = {Zhao, Xiaoxing and Yuan, Xiang and Yi, Changyan},
+  title     = {DOBAR: Domain Ontology Construction and Reasoning Method Combined with
+               Large Language Models - Reproducibility Package},
+  version   = {1.0.0},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.23449067},
+  url       = {https://doi.org/10.5281/zenodo.23449067}
+}
+```
 
 `CITATION.cff` and `.zenodo.json` carry the same metadata, so GitHub and Zenodo render the
 citation automatically.
