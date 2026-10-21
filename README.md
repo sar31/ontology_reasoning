@@ -1,4 +1,4 @@
-# DOBAR — Ontology-Driven Dynamic Data Classification and Reasoning
+# DOCAR — Ontology-Driven Dynamic Data Classification and Reasoning
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23449067.svg)](https://doi.org/10.5281/zenodo.23449067)
 
@@ -189,7 +189,7 @@ running the LLM-dependent pipelines requires `LLM_API_KEY`.
 If you use this code or data, please cite the archived release of this repository (see the DOI
 badge on the GitHub page, minted by Zenodo) and the accompanying article:
 
-> X. Zhao, X. Yuan, C. Yi. DOBAR: A Domain Ontology Construction and Reasoning Method Combined
+> X. Zhao, X. Yuan, C. Yi. DOCAR: A Domain Ontology Construction and Reasoning Method Combined
 > with Large Language Models. *Data & Knowledge Engineering* (under review).
 >
 > Code and data: https://github.com/sar31/ontology_reasoning — archived as v1.0.0 at
@@ -198,7 +198,7 @@ badge on the GitHub page, minted by Zenodo) and the accompanying article:
 ```bibtex
 @software{zhao_dobar_2026,
   author    = {Zhao, Xiaoxing and Yuan, Xiang and Yi, Changyan},
-  title     = {DOBAR: Domain Ontology Construction and Reasoning Method Combined with
+  title     = {DOCAR: Domain Ontology Construction and Reasoning Method Combined with
                Large Language Models - Reproducibility Package},
   version   = {1.0.0},
   year      = {2026},
